@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    /*background-image: url(https://scontent.fcul1-1.fna.fbcdn.net/v/t39.30808-6/292135644_630875888411130_6305730293515109756_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=fM05vC22wngAX_Eq7Vd&_nc_ht=scontent.fcul1-1.fna&oh=00_AfBS1cnHjJjIdhiLfvgPwjNmg8wxdw5G525F_VSJCn71RA&oe=642AC063);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50%;
+    background-position: center;*/
+    padding: 5px 10px;
+}
+
+html {
+    padding: 0;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cuerpo {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding-top: 120px;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 900;
+    color: rgb(224, 51, 51);
+    text-shadow:
+     3px  3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+.navbar {
+    border-radius: 20px;
+}
+
+.logo {
+    width: 90px;
+    height: 80px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 0;
+}
+
+.menu-item, a {
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(224, 51, 51);
+}
+
+.half {
+    text-align: end;
+}
+
+.seccion, .seccion-arroz {
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px ;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    border-top: solid 3px rgb(224, 51, 51);
+    border-top-style: dotted;
+}
+
+.frame img {
+    width: 100%;
+    margin-top: -90px;
+}
+
+.frame-top img {
+    width: 100%;
+    margin-top: -30px;
+}
+
+.frame-bottom img {
+    width: 100%;
+    margin-top: 0;
+}
+
+.seccion-arroz h2 {
+    writing-mode: vertical-lr;
+    color: rgb(224, 51, 51);
+    font-weight: 900;
+    font-size: 2.3rem;
+    text-shadow:
+     3px  3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+    position: absolute;
+    display: inline;
+    letter-spacing: 0.1em;
+    transform: rotate(180deg);
+    margin: 0;
+    padding-bottom: 90px;
+}
+
+.seccion h2 {
+    writing-mode: vertical-lr;
+    color: rgb(224, 51, 51);
+    font-weight: 900;
+    font-size: 2.3rem;
+    text-shadow:
+     3px  3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+    position: absolute;
+    display: inline;
+    letter-spacing: 0.1em;
+    transform: rotate(180deg);
+    margin: 0;
+    padding-bottom: 140px;
+}
+
+.bebidas {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.bebidas ul {
+    margin: 0;
+    padding: 0;
+}
+
+.txt-gde {
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1.5rem;
+}
+
+.costo {
+    font-weight: 700;
+    text-align: right;
+}
+
+.bebida-item {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.txt-chico {
+    font-size: .7rem;
+    font-weight: 500;
+}
+
+p {
+    display: grid;
+    grid-template-columns: auto;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.wa-icon {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.wa-icon a {
+    color: green;
+}
+
+.rrss {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    padding-bottom: 1rem;
+    border-bottom: solid 3px rgb(224, 51, 51);
+    border-bottom-style: dotted;
+}
+
+.rrss i {
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width:720px) {
+
+    .frame-top {
+        width: 50rem;
+        margin: auto;
+    }
+
+    .frame-top img {
+        margin: auto;
+        width: 100%;
+        margin-top: -30px;
+    }
+
+    .seccion-arroz h2 {
+        writing-mode: horizontal-tb;
+        color: rgb(224, 51, 51);
+        font-weight: 900;
+        font-size: 4rem;
+        text-shadow:
+         3px  3px 0 #000,
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+        position: relative;
+        display: inline;
+        letter-spacing: 0.1em;
+        transform: rotate(0deg);
+        margin: 0;
+        padding-bottom: 0;
+    }
+    
+    .seccion h2 {
+        writing-mode: horizontal-tb;
+        color: rgb(224, 51, 51);
+        font-weight: 900;
+        font-size: 4rem;
+        text-shadow:
+         3px  3px 0 #000,
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+        position: relative;
+        display: inline;
+        letter-spacing: 0.1em;
+        transform: rotate(0deg);
+        margin: 0;
+        padding-bottom: 0;
+    }
+
+    ul {
+        display: grid;
+        grid-template-columns: auto auto;
+        list-style: none;
+        padding: auto;
+    }
+    
+    li {
+        padding: auto;
+    }
+
+    .bebidas {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: space-evenly;
+        gap: .5rem;
+    }
+}
